@@ -1,0 +1,19 @@
+{
+  "name": "activity_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resolvers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/merge": "^9.0.10",
+    "@graphql-tools/schema": "^10.0.9",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0"
+  }
+}
