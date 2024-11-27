@@ -14,7 +14,7 @@ PASSWORD = "password123"
 def home():
     return jsonify({"message": "Welcome to the Constellations API!"}), 200
 
-# Basuc Auth
+# Basic Auth
 
 @app.route('/basic-auth', methods=['GET'])
 def basic_auth():
